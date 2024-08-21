@@ -1,0 +1,35 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/Students/Index" class="btn btn-success">All</a>
+            <a href="/Students/Create" class="btn btn-success"> Create</a>
+            <a href="/Students/Update" class="btn btn-success"> Update</a>
+            <a href="/Students/Delete" class="btn btn-success"> Delete</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+            Create Student
+        </section>
+    </main>
+
+    <footer class="bg-secondary text-center">
+        <h3> This Is Footer </h3>
+        @DateTime.Now
+    </footer>
+</body>
+</html>
